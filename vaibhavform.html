@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page </title>
+</head>
+
+<body>
+    <form>
+        <center>
+            <table style="width:50%" border="4">
+                <caption>Employee Registration Form</caption>
+                <tr>
+                    <td><label for="employee num">Employee Number</label></td>
+                    <td> <input type="number" placeholder="Enter only number"  name="employee num" required >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="ename">Employee Name</label></td>
+                    <td><input type="text" id="ename" name="ename" maxlength="10" ></td>
+                </tr>
+
+                <tr>
+                    <td><label for="employee Dob">Employee DOB</label></td>
+                    <td><input type="text" id="eDob" name="employee Dob"placeholder= "mm / dd / yyy"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="employee age">Employee Age</label></td>
+                    <td> <input type="number" id="age" name="employee age" min="25" max="60"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="employee address">Address</label></td>
+                    <td><textarea id="address" name="address" rows="3" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="contact number ">Contact Number</label></td>
+                    <td><input type="text" id="number" name="contact number" pattern="[0-9]{10}"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="employee email">Email</label></td>
+                    <td> <input type="email" id="email" name="email"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="Upload documents">Upload documents</label>
+
+                    </td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="reset"></td>
+                </tr>
+
+                </tr>
+                <td><input type="submit"></td>
+
+
+
+
+    </form>
+
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<style>
+#tata {
+  font-size: x-large;
+  color: crimson;
+  background-color: darkgreen;
+  border-style: double;
+   border-color: royalblue;
+ 
+
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+ol {
+  color: crimson;
+
+}
+.class{
+  border-style: double;
+  border: width 1000px;
+  padding: 50px;
+}
+</style>
